@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>College page</title>
+</head>
+<body>
+    <!-- Navbar -->
+        <!-- qrcode -->
+        <div class="index__navbar">
+            <div>
+            <img src="./images/barcode.PNG"/>
+
+            </div>
+            <div class="university" >
+                <h1 ><b>Institut fur Klinische Pathologie</b></h1>
+                <h3 style="text-align: center;" ><b>Universitatsklinikum Freiburg</b></h3>
+                <h4 style="text-align: center;"><b>Breisacher Str. 115a</b></h4>
+                <h4 style="text-align: center;"><b>79106, Freiburg</b></h4>
+            </div>
+            <div>
+                <img src="./images/download.jpeg" height= 120px; width= 80%;/>
+    
+                </div>
+            
+        </div>
+        <!-- College name -->
+        <!-- logo -->
+ 
+        <!-- border --><hr color=" black"  width='99%' />
+
+
+        
+    <!-- Form -->
+    <form style="margin-top: 2em; margin-bottom: 2em;" >
+        <div class="row" style="margin-left: 10px;">
+            <div class="col">
+               <label  class="control-label col-sm-3">Vorname:</label> 
+               <input type="text">
+            </div>
+            <div class="col">
+                <label  class="control-label col-sm-3">Geschlect: </label> 
+                
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="Female">Female</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="Other">Other</label>
+                <input type="radio" id="other" name="gender" value="other">
+                
+             </div>
+        </div>
+        <div class="row" style="margin-left: 10px;">
+            <div class="col">
+                <label  class="control-label col-sm-3"> Nachname: </label> 
+              <input type="text">
+            </div>
+            <div class="col">
+                <label  class="control-label col-sm-3"> CaseId: </label> 
+                <input type="text">
+             </div>
+        </div>
+
+        <div class="row" style="margin-left: 10px;">
+            <div class="col">
+                <label  class="control-label col-sm-3"> Address:  </label> 
+               <input type="text">
+            </div>
+            <div class="col">
+                <label  class="control-label col-sm-3">  GesameItesDatum:   </label> 
+               
+                <input type="text">
+             </div>
+        </div>
+
+        <div class="row" style="margin-left: 10px;">
+            <div class="col">
+               
+               <label  class="control-label col-sm-3">  Telefon nummer:   </label>  
+               <input type="text">
+            </div>
+            <div class="col">
+                <label  class="control-label col-sm-3">AbsendungsDatum:</label> 
+                 <input type="text">
+             </div>
+        </div>
+
+        <div class="row" style="margin-left: 10px;">
+            <div class="col">
+                <label  class="control-label col-sm-3"> Geburtsdatum: </label> 
+                <input type="text" placeholder="tt.mm.jjjj">
+            </div>
+            <div class="col">
+                <label  class="control-label col-sm-3"> Absender: </label> 
+                <input type="text">
+             </div>
+        </div>
+        <div class="row" style="margin-left: 10px;">
+            <div class="col">
+                <label  class="control-label col-sm-3"> Alt: </label> 
+              
+               <input type="text">
+            </div>
+            <div class="col">
+                
+                <label  class="control-label col-sm-3">Emfanger: </label>  
+                <input type="text">
+             </div>
+        </div>
+    </form>
+
+    <!-- border --><hr color=" black"  width='99%' />
+
+    <!-- Doctorname & telephone -->
+    <div class="row" style="margin-left: 10px;">
+        <div class="col">
+            <label  class="control-label col-sm-3"> Doctor Name: </label> 
+          
+           <input type="text">
+        </div>
+        <div class="col">
+            
+            <label  class="control-label col-sm-3">Telephone: </label>  
+            <input type="text">
+         </div>
+    </div>
+    <!-- border --><hr color=" black"  width='99%' />
+
+
+    <!-- Clinical information -->
+
+    <div class="form-group col-8" style="margin-left: 20px;">
+        <label >Clinical Information</label>
+        <textarea  style="width:115%" cols="60" rows="6" ></textarea>
+      </div>
+
+
+    <!-- Question -->
+    <div class="form-group col-8" style="margin-left: 20px;">
+        <label >Questions</label>
+        <textarea  style="width:115%" cols="20" rows="3"></textarea>
+      </div>
+
+    <!-- type of material -->
+    <div class="form-group col-8" style="margin-left: 20px;">
+        <label >Type of material</label>
+        <textarea  style="width:115%" cols="20" rows="3"></textarea>
+      </div>
+    <!-- 3 buttons -->
+
+    <div id="outer">
+        <div class="inner"><button>Zurucksetzen</button></div>
+        <div class="inner"><button>Seden</button></div>
+        <div class="inner"><button>Drucken</button></div>
+    </div>
+    
+</body>
+</html>

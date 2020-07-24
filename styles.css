@@ -1,0 +1,22 @@
+* {
+    align-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.index__navbar {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    
+}
+
+#outer
+{
+    width:100%;
+    text-align: center;
+    
+}
+.inner
+{
+    display: inline-block;
+}
